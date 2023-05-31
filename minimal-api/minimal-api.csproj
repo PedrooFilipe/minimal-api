@@ -13,7 +13,6 @@
 
     <ItemGroup>
       <Compile Remove="Controllers\**" />
-      <Compile Remove="WeatherForecast.cs" />
     </ItemGroup>
 
     <ItemGroup>

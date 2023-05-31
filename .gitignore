@@ -1,3 +1,7 @@
 .idea/
+.vs/
 /minimal-api/bin
 /minimal-api/obj
+
+/minimal-api-test/bin
+/minimal-api-test/obj
