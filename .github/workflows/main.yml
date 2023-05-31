@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Enter Folder application
-      run: cd /root/actions-runner/work/minimal-api/minimal-api
+      run: cd c:/actions-runner/work/minimal-api/minimal-api
     - name: Build
       run: dotnet build minimal-api 
     - name: Run tests
