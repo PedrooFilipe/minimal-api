@@ -33,5 +33,7 @@ jobs:
       run: dotnet publish -c Release
     - name: Enter published folder
       run: cd c:/action-runner-prod/work/minimal-api/minimal-api/minimal-api/bin/Release/net6.0/publish
+    - name: List itens folder
+      run: ls 
     - name: Start Application
       run: dotnet minimal-api.dll
