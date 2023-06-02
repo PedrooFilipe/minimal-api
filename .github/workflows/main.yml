@@ -26,12 +26,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Enter Folder application
-      run: cd c:/actions-runner/work/minimal-api/minimal-api
+      run: cd c:/action-runner-prod/work/minimal-api/minimal-api
     - name: Build
       run: dotnet build minimal-api -c Release 
     - name: Publish application
       run: dotnet publish -c Release
     - name: Enter published folder
-      run: cd c:/actions-runner/work/minimal-api/minimal-api/bin/Release/net6.0/publish
+      run: cd c:/action-runner-prod/work/minimal-api/minimal-api/bin/Release/net6.0/publish
     - name: Start Application
       run: dotnet minimal-api.dll
