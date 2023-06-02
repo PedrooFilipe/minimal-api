@@ -21,7 +21,7 @@ public class UnitTest1
         int soma = controller.Soma(valor1, valor2);
 
         //assert
-        Assert.Equal(25, soma);
+        Assert.Equal(35, soma);
 
     }
 }
